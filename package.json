@@ -5,7 +5,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "build": "expo build:web"
   },
   "dependencies": {
     "expo": "~40.0.0",
@@ -20,6 +21,7 @@
     "@types/react": "~16.9.35",
     "@types/react-dom": "~16.9.8",
     "@types/react-native": "~0.63.2",
+    "expo-cli": "^4.3.4",
     "typescript": "~4.0.0"
   },
   "private": true
